@@ -1,31 +1,3 @@
-# BrainStation Data Science Capstone Template
-
-This is a template repository for setting up your capstone project: it includes a simple folder structure and placeholder files for the most important assets you will be creating.
-
-## Usage
-
-1. Start a new GitHub repo using this template.
-2. Update your `LICENSE` file with date and owner.
-3. Update your `README.md` file to reflect the project - see a sample structure below and please refer to Synapse on what needs to be included here. 
-4. Set up and activate your conda environment:
-    - Create a new `conda` environment for your capstone project.
-    - Activate the environment and export:
-        ```bash
-        conda env export > conda.yml
-        ```
-    - Make sure re-export every time after you update the environment.
-    - You can reset your conda environment by running:
-        ```bash
-        conda env create -f conda.yml
-        conda activate <your-env-name>
-        ```
-5. Add your own notebooks in `./notebooks/` and remove placeholders.
-6. Add your own data in `./data/` and remove placeholder. Note: `.gitignore` will ignore the data folder when you push to github, save a copy of your raw and processed data, pickled models in a Google Drive folder and add the link in the `data_links.md` file.
-7. Add your project documents, figures, reports, presentation pdf's in the `./docs` and remove placeholders.
-8. Add your references (tutorials, papers, books etc.) in `./references`. 
-9. Add your own scripts in `./src/` and remove unnecessary folders.
-
-Feel free to rename the folder and customize the project structure to best fit your work - this template is just the starting point.
 
 ------------------------------------------------------------------------------
 
@@ -34,24 +6,32 @@ Feel free to rename the folder and customize the project structure to best fit y
 
 ### Executive Summary
 
-... Define the problem
-... What is the data science opportunity
-... Key takeaways
+Area of Interest:
+Airbnb is a major homestay booking service. In 2024*, there were an estimated 490 million bookings of nights and experiences, giving Airbnb an estimated 83 billion market capitalization, and generating about 11 billion dollar revenue in 2024. Airbnb has listings worldwide, with over 5 million hosts, listing an estimated 7.7 million listings. There is an opportunity to help with better pricing, more transparency, and better customization.
+
+Problem:
+Pricing can be tricky. Hosts may not know the best price for their property, they can under-price and lose out on revenue, or over-price and lose out on bookings. There are dynamic pricing tools, but they tend to take a black-box approach, and hosts usually do not know how the pricing is calculated.
+
+Data Science Application:
+Using Airbnb’s NYC 2024 Listings data and the use of machine learning tools such as linear regression, classification, and content recommender to give host information to choose a best-fit price so that hosts and renters can experience a fairer price. Likely linear regression on the prediction of price. Optionally a classification on whether a listing will be rented. Optionally a recommender system on similar listings.
+
+Impact:
+More transparency and control for hosts, allowing them more competitive rates and increased revenue. Fairer prices for renters, allowing them more freedom of travel. Better pricing efficiencies and satisfaction for Airbnb.
+
+Dataset:
+The dataset contains 20,758 observations, with 22 columns (including: listing name, neighborhood, room type, bedrooms, number of reviews, rating, etc.) The target variable is price. An optional backup target variable could be rating.
+
 
 ### Demo
 
-... Show your work:
-...     Data visualizations
-...     Interactive demo (e.g., `streamlit` app)
-...     Short video of users trying out the solution
+<img width="957" alt="Screenshot 2025-02-28 at 11 52 11 PM" src="https://github.com/user-attachments/assets/de4c4ebe-19be-41a8-9afd-e6ec66c47055" />
+
+<img width="959" alt="Screenshot 2025-02-28 at 11 52 25 PM" src="https://github.com/user-attachments/assets/5bd6f997-1c50-4d5c-8a78-53152c976824" />
 
 
 ### Methodology
 
-... High-level diagrams of entire process:
-...     various data processing steps
-...     various modelling directions
-...     various prototyping directions
+The dataset will be analyzed in 3 Sprints. With an initial exploratorat analysis. A pre-processing with feature engineering. Machine learning models will also be used.  
 
 
 ### Organization
