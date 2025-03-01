@@ -31,7 +31,7 @@ The dataset contains 20,758 observations, with 22 columns (including: listing na
 
 ### Methodology
 
-The dataset will be analyzed in 3 Sprints. With an initial exploratorat analysis. A pre-processing with feature engineering. Machine learning models will also be used.  
+The dataset will be analyzed in 3 Sprints. With an initial exploratory analysis. A pre-processing with feature engineering. Machine learning models, such as linear regression will also be used to predict listing price and offer recommendation of best-fit price.  
 
 
 ### Organization
