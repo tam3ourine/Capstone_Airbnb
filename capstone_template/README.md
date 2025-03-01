@@ -80,7 +80,7 @@ Feel free to rename the folder and customize the project structure to best fit y
 * `.gitignore`
     - Part of Git, includes files and folders to be ignored by Git version control
 
-* `conda.yml`
+* `capstone_airbnb.yml`
     - Conda environment specification
 
 * `README.md`
