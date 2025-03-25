@@ -35,41 +35,6 @@ The dataset will be analyzed in 3 Sprints. With an initial exploratory analysis.
 
 
 ### Organization
-The analyis is organized into the below sections:
-
-- Sprint Goals:
-    - This section details the goals of each sprint. 
-    - Sprint 1 focuses on the EDA. 
-    - Sprint 2 focuses on prepreprocessing and baseline modeling.
-    - Sprint 3 focuses on advanced modeling with hyperparameter tuning and model comparisons. 
-    
-- Introduction:
-    - This section introduces the problem statement and possible impact of this analysis. 
-    - Details how pricing is tricky for Airbnb hosts and better pricing can help the hosts, guests, and platform.
-    
-- Set-up and Dataset Overview:
-    - This section imports the needed libraries and modules, loads the dataset, and takes a first look at the data.
-    
-- Part 1 - EDA:
-    - This section dives into the data and explores the target variable of Price and the independent features.
-    
-- Part 2 - Preprocessing:
-    - This section prepares the dataset for modeling.
-    - The features are cleaned for consistency and engineered to better assist with modeling.
-    
-- Part 3 - Modeling:
-    - This section models the data to predict the Airbnb listing price per night.
-    - In the initial modeling, a linear regression modeling was performed, with a test score of 0.13 (R^2).
-    
-- Stylized Visualizations:
-    - This section revisits some previous plots and stylizes them for presentation. 
-    
-- Conclusion:
-    - This section concludes the analysis and gives an overview of the steps taken in the analysis, such as EDA and preprocessing. Also reports on the model results with Pipeline and GridsearchCV, seeing the model improve from 0.12 to 0.13 (R^2). 
-    - Also suggests additional models for improvement, such as ElasticNet, Random Forest, and XGBoost.
-
-
-
 
 #### Repository 
 
